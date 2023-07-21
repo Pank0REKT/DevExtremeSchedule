@@ -27,6 +27,7 @@ GO
 - AutoMapper
 ---
 - DevExpress
+
 Был использован шаблон расписания - [Ссылка на пример шаблона](https://demos.devexpress.com/ASPNetCore/Demo/Scheduler/BasicViews/NetCore/Light/)
 Внешний вид:
 ![Image](https://i.ibb.co/fnYgdTJ/image.png)
