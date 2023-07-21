@@ -1,0 +1,29 @@
+@page
+@using DevExtremeSchedule.Models
+
+@(
+Html.DevExtreme().Scheduler()
+                .ID("scheduler")
+                .DataSource(d => d.Mvc().Controller("Scheduler")
+                .LoadAction("Get")
+                .UpdateAction("Put")
+                .InsertAction("Post")
+                .DeleteAction("Delete")
+                .Key("Id"))
+    .TimeZone("Europe/Moscow")
+    .Views(new[] {
+        SchedulerViewType.Day,
+        SchedulerViewType.Week,
+        SchedulerViewType.WorkWeek,
+        SchedulerViewType.Month
+    })
+    .CurrentView(SchedulerViewType.Week)
+    .CurrentDate(DateTime.Now)
+    .StartDayHour(9)
+    .Height(600)
+    .TextExpr("Text")
+    .DescriptionExpr("Description")
+    .StartDateExpr("StartDate")
+    .EndDateExpr("EndDate")
+    .AllDayExpr("AllDay")
+)
