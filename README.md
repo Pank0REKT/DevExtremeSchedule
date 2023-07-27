@@ -1,7 +1,7 @@
 ### Выполнено по техническому заданию:
-`Написать на asp .net core razor pages Календарь расписания, с функцией добавить запись прямо в ячейку. Хранить данные в базе MS SQL , общаться с базой через Dapper. Желательно использовать DevExpress.`
+```Написать на asp .net core razor pages Календарь расписания, с функцией добавить запись прямо в ячейку. Хранить данные в базе MS SQL , общаться с базой через Dapper. Желательно использовать DevExpress.```
 
-#### Используемые технологии:
+### Используемые технологии:
 - ASP.NЕT Core Razor Pages
 ---
 - MSSQL
@@ -27,6 +27,7 @@ GO
 - AutoMapper
 ---
 - DevExpress
+
 Был использован шаблон расписания - [Ссылка на пример шаблона](https://demos.devexpress.com/ASPNetCore/Demo/Scheduler/BasicViews/NetCore/Light/)
 Внешний вид:
 ![Image](https://i.ibb.co/fnYgdTJ/image.png)
