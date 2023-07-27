@@ -1,7 +1,6 @@
 ﻿using DevExtremeSchedule.DAL.Interfaces;
 using DevExtremeSchedule.DAL.Models;
 using Dapper;
-using Microsoft.Data.SqlClient;
 
 namespace DevExtremeSchedule.DAL.Implementations
 {

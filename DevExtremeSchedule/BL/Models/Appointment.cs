@@ -7,6 +7,6 @@
         public string Description { get; set; }
         public string StartDate { get; set; }
         public string EndDate { get; set; }
-        public bool AllDay { get; set; }
+        public bool? AllDay { get; set; }
     }
 }

@@ -15,7 +15,7 @@ namespace DevExtremeSchedule.Models
         [JsonProperty(PropertyName = "EndDate")]
         public string EndDate { get; set; }
         [JsonProperty(PropertyName = "AllDay")]
-        public bool AllDay { get; set; }
+        public bool? AllDay { get; set; }
     }
 
 

@@ -5,15 +5,15 @@ namespace DevExtremeSchedule.DAL.Implementations
 {
     public class DBConnection: IDBConnection
     {
-        private readonly IConfiguration configuration;
+        private readonly IConfiguration _configuration;
 
         public DBConnection(IConfiguration configuration)
         {
-            this.configuration = configuration;
+            _configuration = configuration;
         }
         public SqlConnection CreateConnection()
         {
-            return new SqlConnection(configuration.GetConnectionString("DefaultConnection"));
+            return new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
         }
     }
 }
